@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 07 Jun 2021 11:35:39 at http://preview.themeforest.net/item/wunderlust-travel-tour-html-template/full_screen_preview/24720664?_ga=2.165208375.968462346.1622965408-1912338062.1622728269&fbclid=IwAR3EEiEtH_99vMjcA7jJ84KT_pha2vxUutrpTh56-vLPkHYeWXfqfmh8i9w +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://preview.themeforest.net/item/wunderlust-travel-tour-html-template/full_screen_preview/24720664?_ga=2.165208375.968462346.1622965408-1912338062.1622728269&fbclid=IwAR3EEiEtH_99vMjcA7jJ84KT_pha2vxUutrpTh56-vLPkHYeWXfqfmh8i9w -O1 "E:\thietkeweb\HT clone website\demo theme" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:35:41	Warning: 	Link https://preview.themeforest.net/item/wunderlust-travel-tour-html-template/full_screen_preview/24720664?_ga=2.165208375.968462346.1622965408-1912338062.1622728269&fbclid=IwAR3EEiEtH_99vMjcA7jJ84KT_pha2vxUutrpTh56-vLPkHYeWXfqfmh8i9w not scanned (follow robots meta tag)
+11:35:41	Error: 	"Gone" (410) at link https://preview.themeforest.net/item/wunderlust-travel-tour-html-template/full_screen_preview/&qu..." (from https://preview.themeforest.net/item/wunderlust-travel-tour-html-template/full_screen_preview/24720664?_ga=2.165208375.968462346.1622965408-1912338062.1622728269&fbclid=IwAR3EEiEtH_99vMjcA7jJ84KT_pha2vxUutrpTh56-vLPkHYeWXfqfmh8i9w)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 seconds : 3 links scanned, 1 files written (32703 bytes overall) [15724 bytes received at 7862 bytes/sec], 32750 bytes transferred using HTTP compression in 2 files, ratio 33%, 1.3 requests per connection
+(1 errors, 1 warnings, 0 messages)
