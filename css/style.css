@@ -11374,7 +11374,7 @@ GENERAL
 }
 
 .form__item--datepicker:hover > span {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .form__item--datepicker input {
@@ -11391,13 +11391,13 @@ GENERAL
 }
 
 .form__item--datepicker input:focus {
-  border: 1px solid #3fced3;
-  color: #3fced3;
+  border: 1px solid #ffe000;
+  color: #ffe000;
 }
 
 .form__item--datepicker input:hover {
-  border: 1px solid #3fced3;
-  color: #3fced3;
+  border: 1px solid #ffe000;
+  color: #ffe000;
 }
 
 .form__item span {
@@ -11435,14 +11435,14 @@ GENERAL
 }
 
 .custom-select:hover {
-  border-color: #3fced3;
-  color: #3fced3 !important;
+  border-color: #ffe000;
+  color: #ffe000 !important;
   z-index: 2;
 }
 
 .custom-select:hover .select-items li {
-  border-color: #3fced3;
-  color: #3fced3 !important;
+  border-color: #ffe000;
+  color: #ffe000 !important;
 }
 
 .solid-border {
@@ -11457,7 +11457,7 @@ GENERAL
 }
 
 .colorChange {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 /*style the arrow inside the select element:*/
@@ -11564,7 +11564,7 @@ GENERAL
   width: 100px;
   display: inline-block;
   height: 55px;
-  border-top: 5px solid #3fd0d4;
+  border-top: 5px solid #ffe000;
 }
 
 .subsriber-form {
@@ -11654,7 +11654,7 @@ GENERAL
 .section-tittle__line-under {
   position: absolute;
   width: 100px;
-  border-top: 5px solid #3fced3;
+  border-top: 5px solid #ffe000;
 }
 
 .section-tittle-2 p {
@@ -12088,7 +12088,7 @@ GENERAL
 }
 
 .destination-4-2__arrow:hover {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .destination-4-2__arrow--left {
@@ -12425,13 +12425,26 @@ GENERAL
   border-radius: 4px;
 }
 
-.trending-tour-item img {
+.trending-tour-item .trending-tour-item__img img {
   vertical-align: middle;
   transition: all 0.5s;
 }
 
-.trending-tour-item:hover > img {
+.trending-tour-item:hover > .trending-tour-item__img > img {
   transform: scale(1.1);
+}
+
+.trending-tour-item__img{
+	width: 100%;
+	height: 360px;
+	overflow: hidden;
+}
+
+.trending-tour-item__img img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	
 }
 
 .trending-tour-item__sale {
@@ -12476,12 +12489,13 @@ GENERAL
   font-weight: normal;
 }
 
+/*
 .trending-tour-item__group-infor__rating::before, .trending-tour-item__group-infor__rating--4star::before, .trending-tour-item__group-infor__rating--3star::before, .trending-tour-item__group-infor__rating--2star::before, .trending-tour-item__group-infor__rating--1star::before {
   content: "\f005  \f005  \f005  \f005  \f005";
   font-family: "FontAwesome";
   font-size: 13px;
   font-weight: 400 !important;
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .trending-tour-item__group-infor__rating--4star::before {
@@ -12499,6 +12513,7 @@ GENERAL
 .trending-tour-item__group-infor__rating--1star::before {
   content: "\f005  \f006  \f006  \f006  \f006";
 }
+*/
 
 .trending-tour-item__group-infor__lasting {
   margin-top: 18px;
@@ -12714,7 +12729,7 @@ GENERAL
 }
 
 .filterable-tour__categories .active-filter {
-  border-bottom: 2px solid #3fced3;
+  border-bottom: 2px solid #ffe000;
 }
 
 .filterable-tour__categories span {
@@ -12800,7 +12815,7 @@ GENERAL
   display: inline-flex;
   align-items: center;
   background-color: #ffffff;
-  border-top: 7px solid #3fced3;
+  border-top: 7px solid #ffe000;
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -13102,7 +13117,7 @@ GENERAL
 }
 
 .grid-left-sidebar__filter--mode--sort:hover {
-  background-color: #3fced3;
+  background-color: #ffe000;
 }
 
 .grid-left-sidebar__filter--mode--sort:hover img {
@@ -13307,13 +13322,13 @@ GENERAL
   margin: 0;
   font-family: Lato-700;
   font-size: 50px;
-  color: #3fced3;
+  color: #ffe000;
   font-weight: normal;
 }
 
 .tour-infomation__content__review__rate-point h4 span {
   font-size: 30px;
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .tour-infomation__content__review__rate-point h5 {
@@ -13361,7 +13376,7 @@ GENERAL
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #3fced3;
+  background-color: #ffe000;
   position: absolute;
   border-radius: 5px;
 }
@@ -13379,7 +13394,7 @@ GENERAL
   content: "";
   width: 60%;
   height: 100%;
-  background-color: #3fced3;
+  background-color: #ffe000;
   position: absolute;
   border-radius: 5px;
 }
@@ -13397,7 +13412,7 @@ GENERAL
   content: "";
   width: 20%;
   height: 100%;
-  background-color: #3fced3;
+  background-color: #ffe000;
   position: absolute;
   border-radius: 5px;
 }
@@ -13415,7 +13430,7 @@ GENERAL
   content: "";
   width: 0%;
   height: 100%;
-  background-color: #3fced3;
+  background-color: #ffe000;
   position: absolute;
   border-radius: 5px;
 }
@@ -13525,8 +13540,8 @@ GENERAL
 .list-left-sidebar__price__view-detail {
   transition: all 0.3s;
   margin-top: 5px;
-  color: #3fced3;
-  border: 1px solid #3fced3;
+  color: #ffe000;
+  border: 1px solid #ffe000;
   width: 100px;
   height: 40px;
   line-height: 40px;
@@ -13603,7 +13618,7 @@ GENERAL
 }
 
 .video-popup-1__head-Brg {
-  background-image: url("../images/uploads/video-popup/BrgMelbourne.jpg");
+  background-image: url("https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/du-lich-vinh-bai-tu-long-9-696x373.jpg");
   background-position: center;
   background-size: cover;
   height: 550px;
@@ -14749,7 +14764,7 @@ iframe {
 .travel-review-2__view-btn {
   transition: all 0.3s;
   text-transform: uppercase;
-  color: #3fced3 !important;
+  color: #ffe000 !important;
 }
 
 .travel-review-2__view-btn img {
@@ -14988,7 +15003,7 @@ iframe {
 
 .travel-tip-1__btn:hover::before {
   color: #ffffff;
-  background-color: #3fced3;
+  background-color: #ffe000;
 }
 
 .travel-tip-1__btn::before {
@@ -15043,7 +15058,7 @@ iframe {
   z-index: 1;
   width: 370px;
   border-radius: 5px;
-  border: 3px solid #3fced3;
+  border: 3px solid #ffe000;
   background-color: #ffffff;
 }
 
@@ -15095,7 +15110,7 @@ iframe {
 
 .travel-tip-1 .btns-display::before {
   color: #ffffff;
-  background-color: #3fced3;
+  background-color: #ffe000;
 }
 
 .travel-tip-2__tittle {
@@ -15403,7 +15418,7 @@ iframe {
   width: 100%;
   padding: 0;
   height: 2px;
-  background-color: #3fced3;
+  background-color: #ffe000;
 }
 
 .gallery .slick-dots li button::before {
@@ -15677,7 +15692,7 @@ iframe {
 }
 
 .page-banner p span:last-child, .destination-item-banner p span:last-child {
-  color: #3fced3;
+  color: #ffe000;
   margin: 0;
 }
 
@@ -15699,7 +15714,7 @@ iframe {
 }
 
 .tour-item-banner-2 span {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .destination-item-banner {
@@ -15719,7 +15734,7 @@ iframe {
 
 .left-sidebar h3 {
   text-transform: uppercase;
-  background-color: #3fced3;
+  background-color: #ffe000;
   display: block;
   height: 50px;
   width: 100%;
@@ -15799,7 +15814,7 @@ iframe {
   text-align: center;
   border-radius: 4px;
   display: inline-block;
-  background-color: #3fced3;
+  background-color: #ffe000;
   color: #ffffff;
 }
 
@@ -15854,7 +15869,7 @@ iframe {
   left: -7px;
   top: 50%;
   transform: translate(0, -50%);
-  background-color: #3fced3;
+  background-color: #ffe000;
 }
 
 .left-sidebar__price-range .noUi-background {
@@ -15862,7 +15877,7 @@ iframe {
 }
 
 .left-sidebar__price-range .noUi-connect {
-  background: #3fced3;
+  background: #ffe000;
 }
 
 .left-sidebar__price-range .noUi-origin {
@@ -15896,7 +15911,7 @@ iframe {
 }
 
 .left-sidebar .star-rating__field:hover .star-rating__box {
-  border: 1px solid #3fced3;
+  border: 1px solid #ffe000;
 }
 
 .left-sidebar .star-rating__field:hover input {
@@ -15904,7 +15919,7 @@ iframe {
 }
 
 .left-sidebar .star-rating__field:hover .choices-content {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .left-sidebar .star-rating input, .left-sidebar .duration input, .left-sidebar .activity-type input {
@@ -15916,7 +15931,7 @@ iframe {
 }
 
 .left-sidebar .star-rating input:checked ~ .star-rating__box, .left-sidebar .duration input:checked ~ .star-rating__box, .left-sidebar .activity-type input:checked ~ .star-rating__box {
-  border: 1px solid #3fced3;
+  border: 1px solid #ffe000;
 }
 
 .left-sidebar .star-rating input:checked ~ .star-rating__box::after, .left-sidebar .duration input:checked ~ .star-rating__box::after, .left-sidebar .activity-type input:checked ~ .star-rating__box::after {
@@ -15924,7 +15939,7 @@ iframe {
 }
 
 .left-sidebar .star-rating input:checked ~ .choices-content, .left-sidebar .duration input:checked ~ .choices-content, .left-sidebar .activity-type input:checked ~ .choices-content {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .left-sidebar .star-rating__box {
@@ -15944,7 +15959,7 @@ iframe {
   left: 0px;
   width: 17px;
   text-align: center;
-  color: #3fced3;
+  color: #ffe000;
   font-size: 12px;
   visibility: hidden;
 }
@@ -15958,7 +15973,7 @@ iframe {
   font-family: "FontAwesome";
   font-size: 12px;
   font-weight: 400 !important;
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .left-sidebar .star-rating__4-stars::after {
@@ -15990,7 +16005,7 @@ iframe {
 .left-sidebar .duration__arrow-down {
   margin-bottom: -10px;
   margin-top: 15px;
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .left-sidebar .duration__arrow-down::after {
@@ -16014,7 +16029,7 @@ iframe {
   text-align: center;
   width: 100%;
   margin: 0;
-  background-color: #3fced3;
+  background-color: #ffe000;
   font-family: Lato-900;
   font-size: 25px;
   color: #ffffff;
@@ -16150,7 +16165,7 @@ iframe {
 }
 
 .destination-sidebar__searchbox input:focus {
-  border-color: #3fced3;
+  border-color: #ffe000;
 }
 
 .destination-sidebar__searchbox__icon {
@@ -16161,7 +16176,7 @@ iframe {
   cursor: pointer;
   position: absolute;
   width: 50px;
-  background-color: #3fced3;
+  background-color: #ffe000;
 }
 
 .destination-sidebar__searchbox__icon img {
@@ -16234,7 +16249,7 @@ iframe {
 }
 
 .blog-sidebar .sidebar-category ul li a:hover {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .blog-sidebar .recent-post__item {
@@ -16283,7 +16298,7 @@ iframe {
 }
 
 .wander-pagination__pagination .current {
-  background-color: #3fced3;
+  background-color: #ffe000;
   color: #ffffff;
 }
 
@@ -16670,7 +16685,7 @@ iframe {
   font-family: "FontAwesome";
   font-size: 14px;
   font-weight: 400 !important;
-  color: #3fced3;
+  color: #ffe000;
   bottom: -5px;
   left: 0;
   visibility: visible;
@@ -16684,7 +16699,7 @@ iframe {
   font-family: "FontAwesome";
   font-size: 14px;
   font-weight: 400 !important;
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .tour-infomation__content__write-comment__rating input[name="rate"]:checked ~ input::after {
@@ -16731,7 +16746,7 @@ iframe {
   position: absolute;
   width: 150px;
   height: 5px;
-  background-color: #3fced3;
+  background-color: #ffe000;
   bottom: -18px;
 }
 
@@ -16821,7 +16836,7 @@ iframe {
 
 .contact-infomation__working-time p {
   font-size: 18px;
-  color: #3fced3;
+  color: #ffe000;
   margin: 0;
 }
 
@@ -16994,8 +17009,8 @@ iframe {
   height: 46px;
   margin: 1px;
   border-radius: 50%;
-  border: 5px solid #3fced3;
-  border-color: #3fced3 transparent #3fced3 transparent;
+  border: 5px solid #ffe000;
+  border-color: #ffe000 transparent #ffe000 transparent;
   -webkit-animation: lds-dual-ring 1.2s linear infinite;
           animation: lds-dual-ring 1.2s linear infinite;
 }
@@ -17140,7 +17155,7 @@ HEADER
 #header-1 {
   position: relative;
   height: 910px;
-  background-image:url("../images/1.png");
+  background-image:url("https://cafebiz.cafebizcdn.vn/thumb_w/600/162123310254002176/2021/3/15/photo1615779570913-16157795711621239589514.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -17507,7 +17522,7 @@ HEADER
 }
 
 .header-nav-mobile ul {
-  border-top: 3px solid #3fced3;
+  border-top: 3px solid #ffe000;
   margin: 0;
   padding: 0 15px;
 }
@@ -17603,7 +17618,7 @@ FOOTER
 --------------------------------------------------------------*/
 #footer-1 {
   padding-top: 100px;
-  background-image: url("../images/uploads/pagebanner/footerbanner.jpg");
+  background-image: url("https://boostifythemes.com/demo/html/wanderlust/assets/images/uploads/pagebanner/footerbanner.jpg");
   background-position: center;
   background-size: cover;
   height: 900px;
@@ -17631,7 +17646,7 @@ FOOTER
 .footer-widget-1__tittle__line-under {
   width: 50px;
   margin-top: -10px;
-  border-top: 3px solid #3fced3;
+  border-top: 3px solid #ffe000;
 }
 
 .footer-widget-1__lists {
@@ -17739,7 +17754,7 @@ FOOTER
   display: inline-block;
   width: 50px;
   height: 12px;
-  border-top: 3px solid #3fced3;
+  border-top: 3px solid #ffe000;
 }
 
 .footer-2__widget--left {
@@ -17788,7 +17803,7 @@ FOOTER
 .footer-2__widget__map__address {
   font-family: Lato-300;
   font-size: 15px;
-  color: #3fced3;
+  color: #ffe000;
   font-weight: normal;
 }
 
@@ -18327,7 +18342,7 @@ REPONSIVE
   }
   .section-tittle__line-under {
     width: 70px;
-    border-top: 3px solid #3fced3;
+    border-top: 3px solid #ffe000;
   }
 }
 
