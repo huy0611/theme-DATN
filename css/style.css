@@ -17140,7 +17140,7 @@ HEADER
 #header-1 {
   position: relative;
   height: 910px;
-  background-image: url("../images/uploads/pagebanner/header1-banner.jpg");
+  background-image:url("../images/1.png");
   background-position: center;
   background-size: cover;
 }
