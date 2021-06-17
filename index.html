@@ -8,13 +8,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Wanderlust</title>
-
+	
   <link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/jquery.datepicker2.css">
-  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/animation.css">
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 <!--
@@ -22,11 +25,12 @@
     <div class='lds-dual-ring'></div>
 </div>
 -->
+<!--
 <header id="header-1">
     <div class="wand-container">
         <div class="header-content1">
-            <div class="header-content1__logo">
-                <a class="header-logo" href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+            <div class="col-2">
+                <a class="header-logo" href="index.html"><img src="images/logo2(text-white).svg" alt="logo"></a>
             </div>
             <nav class="header-1-nav">
                 <ul>
@@ -158,7 +162,7 @@
             </div>
         </div>
         <div class="header-tittle1">
-            <img src="assets/images/uploads/pagebanner/header1-tittle.png" alt="header-1tittle">     
+            <img src="https://boostifythemes.com/demo/html/wanderlust/assets/images/uploads/pagebanner/header1-tittle.png" alt="header-1tittle">     
         </div> 
     </div>
     <div id="form-1-area">
@@ -211,6 +215,260 @@
 
     </div>
 </header>
+-->
+	<header class="cd-auto-hide-header">
+<!-- menu-mobile -->
+<div class="menu-mobile d-block d-lg-none">
+	<div class="d-flex align-items-center justify-content-between pt-2" style="padding-left: 16px;">
+		<div>
+			<label for="chk" class="hide-menu-btn fs-24 text-">
+		        <i class="fas fa-times" style="font-size: 20px;"></i>
+		    </label>
+		</div>
+		<div class="col-7 col-sm-5 mx-auto px-0">
+            <a href="/" class="d-flex align-items-center justify-content-center">
+                <div class="mob-logo">
+                    <img src="<?= URL_IMAGES ?>/icon/logo-1.png" class="w-auto h-100" alt="">
+                </div>
+                <p class="text-center h2-mon text-brown">Chùa Ba Vàng</p>
+            </a>
+        </div>
+	</div>
+    <!-- search menu mobile -->
+    <form class="" style="z-index: 15" action="/?mod=archive&amp;act=search" method="GET">
+        <div class="input-group dropdown-item bg-white pb-3 px-3">
+            <input type="hidden" name="mod" value="archive">
+            <input type="hidden" name="act" value="search">
+            <input type="text" name="search" class="form-control shadow-none" placeholder="Tìm kiếm..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </form>
+    <!-- end search menu mobile -->
+    <!-- menu mobile -->
+	<nav class="navigation">
+    	<ul class="nav-list">
+    		<li class="dropdown-list">
+    			<div class="d-flex justify-content-between align-items-center">
+    				<a href="#" class="dropdown-list__title">Trag chu</a>
+    				<span><i class="fas fa-angle-down" style="font-size: 25px"></i></span>
+    			</div>
+    			<ul class="dropdown-list__menu">
+				    <li class="openlistnewsmn_mb">
+                        <a href="#">Gioi thieu</a>
+                    </li>
+    			</ul>
+    		</li>
+    		<li>xfd</li>
+    	</ul>
+    </nav>
+    <!-- end menu-mobile -->
+</div>
+<!-- menu-mobile -->
+<!--	<div class="position-absolute w-100 h-100 bg-white" style="z-index: 1"></div>-->
+  <div class="w-100 d-none d-lg-block position-relative" style="z-index: 3; background: linear-gradient(180deg, rgb(0 0 0 / 48%) 0%, rgb(251 251 251 / 0%) 100%);">
+    <div class="w-1136 mx-auto row py-4  align-items-center">
+      <div class="col-4 d-flex align-items-center px-0">
+        <div class="d-flex align-items-center px-sm-3 col-2"><a href=""><img src="images/icon/XMLID.svg" alt=""></a></div>
+
+		  <div class="d-flex flex-wrap pl-2 pt-1 ml-sm-n1">
+		  		<a href="" class="sub-title-16 text-white text-nowrap ">Thầy<br>
+					Thích Trúc Thái Minh
+			  </a>	
+			  
+		  </div>
+      </div>
+      <div class="col-8 px-0">
+        <div class="d-flex justify-content-end">
+          	 <ul class="d-flex nav_desktop bg-transparent justify-content-between w-100">
+			  <li class="nav_item active"> <a href="" class="">Trang chủ</a>
+				<ul class="dropdown-menu fade-up">
+				  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+				  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+				  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+				</ul>
+			  </li>
+			  <li class="nav_item "><a href="" class="">Giới thiệu</a></li>
+			  <li class="nav_item "><a href="" class="">Hạnh đầu đà</a></li>
+			  <li class="nav_item "><a href="" class="">Phật pháp ứng dụng</a></li>
+			  <li class="nav_item "><a href="" class="">Tâm linh</a></li>
+<!--			  <li class="nav_item "><a href="" class=""><i class="fas fa-search"></i></a></li>-->
+				 <li class="nav_item ">
+					 <button class="btn btn-none px-0 focus-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+						<i class="fas fa-search text-white"></i>
+					  </button>
+				 </li>
+			  <li class="nav_item bg-transparent text-white">
+				  <span class="pb-1 pr-2"><img src="images/icon/menu.svg" alt=""></span><span>Danh mục</span>
+				  <button class="btn btn-none px-0 focus-none position-absolute w-100 h-100" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+					  </button>
+			  </li>
+			</ul>
+          </div>
+        </div>
+      </div>
+	  <div class="position-absolute w-100 bg-white accordion" id="accordionExample">
+	  	<div class="collapse" id="collapseExample" data-parent="#accordionExample">
+		  <div class="w-1136 mx-auto py-5">
+			  <button class="btn btn-none float-right fs-10 d-flex align-items-center focus-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+				Đóng <i class="fas fa-times fs-18 pl-2"></i>
+			  </button>
+			<div class="input-group col-sm-7 mx-auto border-bottom px-0 my-5">
+			  <input type="text" class="form-control focus-none border-0 h4-font" placeholder="Tìm bài viết" aria-label="Recipient's username" aria-describedby="button-addon2">
+			  <div class="input-group-append">
+				<button class="btn border-0" type="button"><i class="fas fa-search fs-20 text-secondary"></i></button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		 <div class="collapse" id="collapseExample2" data-parent="#accordionExample">
+		  <div class="w-1136 mx-auto py-5">
+			  <button class="btn btn-none float-right fs-10 d-flex align-items-center focus-none" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+				Đóng <i class="fas fa-times fs-18 pl-2"></i>
+			  </button>
+			  <div class="w-100 float-left pb-5">
+			  	<div class="row">
+				  <div class="col-sm-3 pb-3">
+					  <div class="header-section-cate d-flex pt-0">
+						<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+					</div>
+					  <ul class="header-cate-menu">
+						<li class="header-cate-menu-item">
+							<a href="" class="sub-title-16">
+								Bài viết mới nhất
+							</a>
+						  </li>
+						  <li class="header-cate-menu-item">
+							  <a href="" class="sub-title-16">
+								Bài viết mới nhất
+							</a>
+						  </li>
+					  </ul>
+				  </div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pt-0">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<ul class="header-cate-menu">
+						  <li class="header-cate-menu-item">
+							  <a href="" class="sub-title-16">
+								  Bài viết mới nhất
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  Bài viết mới nhất
+							  </a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pt-0">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<ul class="header-cate-menu">
+						  <li class="header-cate-menu-item">
+							  <a href="" class="sub-title-16">
+								  Bài viết mới nhất
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  Thế giới tâm linh
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  video
+							  </a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+					</div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pt-0">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<ul class="header-cate-menu">
+						  <li class="header-cate-menu-item">
+							  <a href="" class="sub-title-16">
+								  Bài viết mới nhất
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  Thế giới tâm linh
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  video
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  Giảng Pháp thường kỳ
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  video
+							  </a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3">
+							<p class="sub-title-14">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+						</div>
+					</div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Video mới nhất</a>
+						</div>
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3">
+							<p class="sub-title-14">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+						</div>
+					</div>
+				</div>
+			  </div>
+			
+		  </div>
+		</div>
+	  </div>
+    </div> 
+</header>
 
 
 
@@ -235,35 +493,45 @@
     
     <div class="top-desti">
         <a href="destination-item.html" class="top-desti__item">
-            <img src="assets/images/uploads/destination/desti1.jpg" alt="desti1">
+			<div class="top-desti__img">
+				<img src="https://img.nhandan.com.vn/Files/Images/2020/09/26/ConDao-1601106244584.jpg" alt="desti1">
+			</div>
             <div class="top-desti__ammout">
-                <span><i class="fa fa-map-marker"></i>BAGAN</span>
+                <span><i class="fas fa-user-times"></i>BAGAN</span>
                 <span>38 Tours</span>
             </div>
         </a>
         <a href="destination-item.html" class="top-desti__item">
-            <img src="assets/images/uploads/destination/desti2.jpg" alt="desti1">
+            <div class="top-desti__img">
+				<img src="https://img.nhandan.com.vn/Files/Images/2021/04/26/Ha_Long-1619425297787.jpg" alt="desti1">
+			</div>
             <div class="top-desti__ammout">
                 <span><i class="fa fa-map-marker"></i>KATA TJUTA</span>
                 <span>21 Tours</span>
             </div>
         </a>
         <a href="destination-item.html" class="top-desti__item">
-            <img src="assets/images/uploads/destination/desti3.jpg" alt="desti1">
+            <div class="top-desti__img">
+				<img src="https://media.vneconomy.vn/w800/images/upload/2021/04/19/backpacking-vietnam-ninh-binh-approach-16170886497622143382700-201-0-1279-1920-crop-16170886630811941476297.jpg" alt="desti1">
+			</div>
             <div class="top-desti__ammout">
                 <span><i class="fa fa-map-marker"></i>HERMANUS</span>
                 <span>38 Tours</span>
             </div>
         </a>
         <a href="destination-item.html" class="top-desti__item">
-            <img src="assets/images/uploads/destination/desti4.jpg" alt="desti1">
+            <div class="top-desti__img">
+				<img src="https://cafebiz.cafebizcdn.vn/thumb_w/600/162123310254002176/2021/2/28/photo1614476010927-16144760111002110990928.jpg" alt="desti1">
+			</div>
             <div class="top-desti__ammout">
                 <span><i class="fa fa-map-marker"></i>SYDNEY</span>
                 <span>38 Tours</span>
             </div>
         </a>
         <a href="destination-item.html" class="top-desti__item">
-            <img src="assets/images/uploads/destination/desti5.jpg" alt="desti1">
+            <div class="top-desti__img">
+				<img src="https://www.sunlife.com.vn/content/dam/sunlife/regional/vietnam/images/du-lich-viet-nam-2020-1.jpg" alt="desti1">
+			</div>
             <div class="top-desti__ammout">
                 <span><i class="fa fa-map-marker"></i>LAKE GARDA</span>
                 <span>38 Tours</span>
@@ -289,34 +557,40 @@
             <div class="col-lg-4 col-sm-6 col-12">
                 <a href="tour-item.html" class="trending-tour-item">
                     <div class="trending-tour-item__sale"></div>             
-                    <img class="trending-tour-item__thumnail" src="assets/images/uploads/tours/tour1.jpg" alt="tour1">
+                    <div class="trending-tour-item__img">
+						<img src="images/1.png" alt="">
+					</div>
                     <div class="trending-tour-item__info">
                         <h3 class="trending-tour-item__name">
                             nepal camp treks
                         </h3>
                         <div class="trending-tour-item__group-infor">
                             <div class="trending-tour-item__group-infor--left">
-                                <span class="trending-tour-item__group-infor__rating"></span>
-                                <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 5 Days / 4 Nights</div>
+<!--                                <span class="trending-tour-item__group-infor__rating"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
+                                <div class="trending-tour-item__group-infor__lasting">
+									<i class="far fa-calendar-check"></i> 5 Days / 4 Nights</div>
                             </div>
 
                             <p class="trending-tour-item__group-infor__sale-price">$999</p>
                             <span class="trending-tour-item__group-infor__price">$799</span>
-            
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
                 <a href="tour-item.html"  class="trending-tour-item">
-                    <img class="trending-tour-item__thumnail" src="assets/images/uploads/tours/tour2.jpg" alt="tour1">
+                    <div class="trending-tour-item__img">
+						<img src="images/2.png" alt="">
+					</div>
                     <div class="trending-tour-item__info">
                         <h3 class="trending-tour-item__name">
                             trekking everest
                         </h3>
                         <div class="trending-tour-item__group-infor">
                             <div class="trending-tour-item__group-infor--left">
-                                <span class="trending-tour-item__group-infor__rating--4star"></span>
+<!--                                <span class="trending-tour-item__group-infor__rating--4star"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
                                 <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 7 Days / 6 Nights</div>
                             </div>
                             <span class="trending-tour-item__group-infor__price">$652</span>
@@ -327,14 +601,17 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
                 <a href="tour-item.html" class="trending-tour-item">
-                    <img class="trending-tour-item__thumnail" src="assets/images/uploads/tours/tour3.jpg" alt="tour1">
+                    <div class="trending-tour-item__img">
+						<img src="images/Rectangle 179.png" alt="">
+					</div>
                     <div class="trending-tour-item__info">
                         <h3 class="trending-tour-item__name">
                             Kelingking beach
                         </h3>
                         <div class="trending-tour-item__group-infor">
                             <div class="trending-tour-item__group-infor--left">
-                                <span class="trending-tour-item__group-infor__rating"></span>
+<!--                                <span class="trending-tour-item__group-infor__rating"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
                                 <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 3 Days / 2 Nights</div>
                             </div>
                             <span class="trending-tour-item__group-infor__price">$456</span>
@@ -346,14 +623,17 @@
 
             <div class="col-lg-4 col-sm-6 col-12">
                 <a href="tour-item.html" class="trending-tour-item">
-                    <img class="trending-tour-item__thumnail" src="assets/images/uploads/tours/tour4.jpg" alt="tour4">
+                    <div class="trending-tour-item__img">
+						<img src="images/1.png" alt="">
+					</div>
                     <div class="trending-tour-item__info">
                         <h3 class="trending-tour-item__name">
                             Turkey Encompassed
                         </h3>
                         <div class="trending-tour-item__group-infor">
                             <div class="trending-tour-item__group-infor--left">
-                                <span class="trending-tour-item__group-infor__rating"></span>
+<!--                                <span class="trending-tour-item__group-infor__rating"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
                                 <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 6 Days / 6 Nights</div>
                             </div>
 
@@ -365,14 +645,17 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-12">
                 <a href="tour-item.html" class="trending-tour-item">
-                    <img class="trending-tour-item__thumnail" src="assets/images/uploads/tours/tour5.jpg" alt="tour5">
+                    <div class="trending-tour-item__img">
+						<img src="images/1.png" alt="">
+					</div>
                     <div class="trending-tour-item__info">
                         <h3 class="trending-tour-item__name">
                             Broho Midnight Tour
                         </h3>
                         <div class="trending-tour-item__group-infor">
                             <div class="trending-tour-item__group-infor--left">
-                                <span class="trending-tour-item__group-infor__rating--3star"></span>
+<!--                                <span class="trending-tour-item__group-infor__rating--3star"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
                                 <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 2 Days / 1 Nights</div>
                             </div>
                             <span class="trending-tour-item__group-infor__price">$531</span>
@@ -384,14 +667,17 @@
             <div class="col-lg-4 col-sm-6 col-12">
                 <a href="tour-item.html" class="trending-tour-item">
                     <div class="trending-tour-item__sale"></div>
-                    <img class="trending-tour-item__thumnail" src="assets/images/uploads/tours/tour6.jpg" alt="tour6">
+                    <div class="trending-tour-item__img">
+						<img src="images/1.png" alt="">
+					</div>
                     <div class="trending-tour-item__info">
                         <h3 class="trending-tour-item__name">
                             Giza Pyramids
                         </h3>
                         <div class="trending-tour-item__group-infor">
                             <div class="trending-tour-item__group-infor--left">
-                                <span class="trending-tour-item__group-infor__rating--4star"></span>
+<!--                                <span class="trending-tour-item__group-infor__rating--4star"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
                                 <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 5 Days / 4 Nights</div>
                             </div>
 
@@ -411,13 +697,13 @@
         <div class="video-popup-1__head-Brg"></div>
         <div class="container">
             <div class="video-popup-1__tittle">
-                <img src="assets/images/uploads/video-popup/melbouensnow.png" alt="melbournetittle">
+<!--                <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/du-lich-vinh-bai-tu-long-9-696x373.jpg" alt="melbournetittle">-->
             </div>
             <h2>VIDEO REVIEW</h2>
             <div class="video-popup-1__area">
                 <span id="btn-popup"><img src="assets/images/video-popup/btn-popup.png" alt="button-pop"></span>
                 <div class="video-popup-img">
-                    <img src="assets/images/uploads/video-popup/imgSnowtour.jpg" alt="">
+                    <img src="https://saoviettravel.com.vn/wp-content/uploads/2013/06/du-lich-ha-long-1-ngay-gia-tot-tu-ha-noi-saoviettravel.jpg" alt="" class="w-100">
                 </div>
             </div>
         </div>
@@ -436,71 +722,160 @@
 
 
 
-<section class="travel-tip-1__area">
-    <div class="container">
-        <div class="travel-tip-1__tittle">
+<section id="travel-review" >
+    <img class="worldBrg" src="assets/images/worldBrg2.png" alt="worldBrg2">
+    <div class="wand-container">
+        
+        <div class="travel-review__tittle">
             <!-- section tittle -->
             
             
             
             <div class="section-tittle">
-    <h2>Travel Tips</h2>
+    <h2>Read the top</h2>
     <div class="section-tittle__line-under"></div>
-    <p>Travel  <span>Tips</span></p>
+    <p>Travel <span>Reviews</span></p>
 </div>
+            <p class="travel-review__sub-tittle">Etiam vitae enim eget urna efficitur commodo sed quis justo Lorem ipsum dolor sit amet.</p>
         </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 col-12">
+                <a href="tour-item.html" class="trending-tour-item">
+                    <div class="trending-tour-item__sale"></div>             
+                    <div class="trending-tour-item__img">
+						<img src="images/1.png" alt="">
+					</div>
+                    <div class="trending-tour-item__info">
+                        <h3 class="trending-tour-item__name">
+                            nepal camp treks
+                        </h3>
+                        <div class="trending-tour-item__group-infor">
+                            <div class="trending-tour-item__group-infor--left">
+<!--                                <span class="trending-tour-item__group-infor__rating"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
+                                <div class="trending-tour-item__group-infor__lasting">
+									<i class="far fa-calendar-check"></i> 5 Days / 4 Nights</div>
+                            </div>
 
-        <div class="travel-tip-1">
-            <img src="assets/images/uploads/testi/traveltip1.png" alt="travel-tip-1">
-            <span data-rel="location1" class="travel-tip-1__btn travel-tip-1__btn--location1 ">1</span>
-            <span data-rel="location2" class="travel-tip-1__btn travel-tip-1__btn--location2">2</span>
-            <span data-rel="location3" class="travel-tip-1__btn travel-tip-1__btn--location3">3</span>
-            <span data-rel="location4" class="travel-tip-1__btn travel-tip-1__btn--location4">4</span>
-            <span data-rel="location5" class="travel-tip-1__btn travel-tip-1__btn--location5">5</span>
-            <!-- tips -->
+                            <p class="trending-tour-item__group-infor__sale-price">$999</p>
+                            <span class="trending-tour-item__group-infor__price">$799</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <a href="tour-item.html"  class="trending-tour-item">
+                    <div class="trending-tour-item__img">
+						<img src="images/2.png" alt="">
+					</div>
+                    <div class="trending-tour-item__info">
+                        <h3 class="trending-tour-item__name">
+                            trekking everest
+                        </h3>
+                        <div class="trending-tour-item__group-infor">
+                            <div class="trending-tour-item__group-infor--left">
+<!--                                <span class="trending-tour-item__group-infor__rating--4star"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
+                                <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 7 Days / 6 Nights</div>
+                            </div>
+                            <span class="trending-tour-item__group-infor__price">$652</span>
+                
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <a href="tour-item.html" class="trending-tour-item">
+                    <div class="trending-tour-item__img">
+						<img src="images/Rectangle 179.png" alt="">
+					</div>
+                    <div class="trending-tour-item__info">
+                        <h3 class="trending-tour-item__name">
+                            Kelingking beach
+                        </h3>
+                        <div class="trending-tour-item__group-infor">
+                            <div class="trending-tour-item__group-infor--left">
+<!--                                <span class="trending-tour-item__group-infor__rating"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
+                                <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 3 Days / 2 Nights</div>
+                            </div>
+                            <span class="trending-tour-item__group-infor__price">$456</span>
+                
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-            <a href="blog-single.html" class="travel-tip-1__tip travel-tip-1__tip--location1 location1">
-                <h3>15 Things You Need to Know Before You Go!</h3>
-                <span><i class="far fa-calendar-check"></i>July 4, 2019 </span>
-                <span><i class="far fa-user"></i>By Admin</span>
-                <span><i class="far fa-comment-alt"></i>2 commnets</span>
-                <p>Aliquam blandit facilisis purus, eget volutpat ante congue a. Quo neque sapiente libero repellendus eligendi ducimus.</p>
-            </a>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <a href="tour-item.html" class="trending-tour-item">
+                    <div class="trending-tour-item__img">
+						<img src="images/1.png" alt="">
+					</div>
+                    <div class="trending-tour-item__info">
+                        <h3 class="trending-tour-item__name">
+                            Turkey Encompassed
+                        </h3>
+                        <div class="trending-tour-item__group-infor">
+                            <div class="trending-tour-item__group-infor--left">
+<!--                                <span class="trending-tour-item__group-infor__rating"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
+                                <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 6 Days / 6 Nights</div>
+                            </div>
 
-            <a href="blog-single.html" class="travel-tip-1__tip travel-tip-1__tip--location2 location2">
-                <h3>5 Things You Need to Know Before You Go!</h3>
-                <span><i class="far fa-calendar-check"></i>July 4, 2019 </span>
-                <span><i class="far fa-user"></i>By Admin</span>
-                <span><i class="far fa-comment-alt"></i>2 commnets</span>
-                <p>Aliquam blandit facilisis purus, eget volutpat ante congue a. Quo neque sapiente libero repellendus eligendi ducimus.</p>
-            </a>
+                            <span class="trending-tour-item__group-infor__price">$703</span>
+                
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <a href="tour-item.html" class="trending-tour-item">
+                    <div class="trending-tour-item__img">
+						<img src="images/1.png" alt="">
+					</div>
+                    <div class="trending-tour-item__info">
+                        <h3 class="trending-tour-item__name">
+                            Broho Midnight Tour
+                        </h3>
+                        <div class="trending-tour-item__group-infor">
+                            <div class="trending-tour-item__group-infor--left">
+<!--                                <span class="trending-tour-item__group-infor__rating--3star"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
+                                <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 2 Days / 1 Nights</div>
+                            </div>
+                            <span class="trending-tour-item__group-infor__price">$531</span>
+                
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <a href="tour-item.html" class="trending-tour-item">
+                    <div class="trending-tour-item__sale"></div>
+                    <div class="trending-tour-item__img">
+						<img src="images/1.png" alt="">
+					</div>
+                    <div class="trending-tour-item__info">
+                        <h3 class="trending-tour-item__name">
+                            Giza Pyramids
+                        </h3>
+                        <div class="trending-tour-item__group-infor">
+                            <div class="trending-tour-item__group-infor--left">
+<!--                                <span class="trending-tour-item__group-infor__rating--4star"></span>-->
+								<div class="rating"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></div>
+                                <div class="trending-tour-item__group-infor__lasting"><img src="assets/images/tours/lasting.png" alt="lasting"> 5 Days / 4 Nights</div>
+                            </div>
 
-            <a href="blog-single.html" class="travel-tip-1__tip travel-tip-1__tip--location3 location3">
-                <h3>3 Things You Need to Know Before You Go!</h3>
-                <span><i class="far fa-calendar-check"></i>July 4, 2019 </span>
-                <span><i class="far fa-user"></i>By Admin</span>
-                <span><i class="far fa-comment-alt"></i>3 commnets</span>
-                <p>Aliquam blandit facilisis purus, eget volutpat ante congue a. Quo neque sapiente libero repellendus eligendi ducimus.</p>
-            </a>
-
-            <a href="blog-single.html" class="travel-tip-1__tip travel-tip-1__tip--location4 location4">
-                <h3>1 Things You Need to Know Before You Go!</h3>
-                <span><i class="far fa-calendar-check"></i>July 4, 2019 </span>
-                <span><i class="far fa-user"></i>By Admin</span>
-                <span><i class="far fa-comment-alt"></i>4 commnets</span>
-                <p>Aliquam blandit facilisis purus, eget volutpat ante congue a. Quo neque sapiente libero repellendus eligendi ducimus.</p>
-            </a>
-
-            <a href="blog-single.html" class="travel-tip-1__tip travel-tip-1__tip--location5 location5">
-                <h3>25 Things You Need to Know Before You Go!</h3>
-                <span><i class="far fa-calendar-check"></i>July 4, 2019 </span>
-                <span><i class="far fa-user"></i>By Admin</span>
-                <span><i class="far fa-comment-alt"></i>5 commnets</span>
-                <p>Aliquam blandit facilisis purus, eget volutpat ante congue a. Quo neque sapiente libero repellendus eligendi ducimus.</p>
-            </a>
+                            <p class="trending-tour-item__group-infor__sale-price">$898</p>
+                            <span class="trending-tour-item__group-infor__price">$600</span>
+                
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
-</section>
+	</section>
 
 <div class="scroll-top">
     <i class="fas fa-angle-up"></i>
@@ -538,13 +913,12 @@
         <div class="row">
             <div class="col-lg-6 col-md-5">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-6">
                         <div class="footer-widget-1 footer-widget-1--margin ">
-                            <a href="index.html"><img src="assets/images/footerlogo.png" alt="footerlogo"></a>
+                            <a href="index.html"><img src="images/logo2(text-white).svg" alt="footerlogo"></a>
                             <div class="footer-widget-1__text">
                                 <p>
-                                    Sed vel molestie libero, ac vestibulum nunc. Vivamus quis nibh Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, neque? <br>
-                                    Molestie mauris, vitae dictum erat quam vel felis. Vestibulum ante ispum      
+                                    Sed vel molestie libero, ac vestibulum nunc. Vivamus quis nibh Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, neque? <br>     
                                 </p>
                             </div>   
                         </div>
@@ -616,14 +990,48 @@
         
 </footer>
 
-<script src="assets/scripts/jquery-3.4.1.js"> </script>
+<!--<script src="assets/scripts/jquery-3.4.1.js"> </script>-->
 
-<script src="assets/scripts/slick.min.js"></script>
-<script src="assets/scripts/jquery.datepicker2.js"></script>
-<script src="assets/scripts/isotope.pkgd.min.js"></script>
+<!--<script src="assets/scripts/slick.min.js"></script>-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="js/jquery.datepicker2.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
 
 
-<script src="assets/scripts/app.js"></script>
+
+<script src="js/app-theme.js"></script>
+	
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="js/header.js"></script>
+	<script type="text/javascript">
+		$('.opnav_tran').click(function(event) {
+			if ($('.header-pc').hasClass('active_im')) {
+				$(".header-pc").removeClass('active');
+				$(".header-pc").removeClass('active_im');
+				$(".cd-auto-hide-header").removeClass('active_menuauto');
+				$('body').css('overflow-y', 'auto');
+			} else {
+				$(".header-pc").addClass('active');
+				$(".header-pc").addClass('active_im');
+				$(".cd-auto-hide-header").addClass('active_menuauto');
+				$('body').css('overflow-y', 'hidden');
+			}
+		});
+		$('.btn_out').click(function(event) {
+			$(".header-pc").removeClass('active');
+			$(".header-pc").removeClass('active_im');
+			$(".cd-auto-hide-header").removeClass('active_menuauto');
+			$('body').css('overflow-y', 'auto');
+		});
+	</script>
+	
 </body>
 
 </html>

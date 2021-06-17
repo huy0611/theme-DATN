@@ -1,0 +1,100 @@
+/* Scss Document */
+.thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.thumb-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .thumb-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.thumb-5x3 {
+  padding-bottom: 60%; }
+.nav_desktop{
+    background-color: #a00106;
+    .nav_item{
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding: 0 13px 3px;
+		a{
+			color:#FFFFFF;
+			font-size: 14px;
+			text-shadow: 0px 2px 4px #000000e0;
+		}
+		.dropdown-menu{
+			.dropdown-item{
+				transition: all .15s ease-in-out;
+				padding-left: 12px;
+				padding-right: 30px;
+				color:#828282;
+				font-weight: bold;
+				text-shadow: none;
+			}
+		}
+    }
+    .nav_item:hover{
+        a{
+           color: #ffb74c;
+        }
+		.dropdown-menu{
+			.dropdown-item:hover{
+				color:saddlebrown;
+			    background-color: #fff;
+				padding-left: 17px;
+				padding-right: 25px;
+			}
+		}
+    }
+    .nav_item.active{
+        border-bottom: 2px solid #A46A14;
+        a{
+            color: #FFFFFF;
+        }
+    }
+}
+@media all and (min-width: 992px) {
+	.nav_desktop .nav_item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.nav_desktop .nav_item:hover .nav-link{ color: #fff;  }
+	.nav_desktop .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.nav_desktop .dropdown-menu.fade-up{ top:180%;  }
+	.nav_desktop .nav_item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+
+.cd-auto-hide-header {
+  position: sticky;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #00000026;
+  /* Force Hardware Acceleration */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s; }
+
+.cd-auto-hide-header::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.cd-auto-hide-header.is-hidden {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%); }
+
+/*# sourceMappingURL=style.css.map */

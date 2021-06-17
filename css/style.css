@@ -363,6 +363,7 @@ template {
 /*--------------------------------------------------------------
 2.0 Fonts
 --------------------------------------------------------------*/
+/*
 @font-face {
   font-family: "FontAwesome";
   src: url("fonts/fontawesome-webfont.eot");
@@ -370,6 +371,7 @@ template {
   font-weight: normal;
   font-style: normal;
 }
+*/
 
 .fa {
   display: inline-block;
@@ -9159,6 +9161,7 @@ readers do not read off random characters that represent icons */
  * Font Awesome Free 5.10.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+/*
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
@@ -9167,6 +9170,7 @@ readers do not read off random characters that represent icons */
   src: url("fonts/webfonts/fa-regular-400.eot");
   src: url("fonts/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("fonts/webfonts/fa-regular-400.woff2") format("woff2"), url("fonts/webfonts/fa-regular-400.woff") format("woff"), url("fonts/webfonts/fa-regular-400.ttf") format("truetype"), url("fonts/webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
+*/
 
 .far {
   font-family: 'Font Awesome 5 Free';
@@ -9177,6 +9181,7 @@ readers do not read off random characters that represent icons */
  * Font Awesome Free 5.10.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+/*
 @font-face {
   font-family: 'Font Awesome 5 Free Solid';
   font-style: normal;
@@ -9185,6 +9190,7 @@ readers do not read off random characters that represent icons */
   src: url("fonts/webfonts/fa-solid-900.eot");
   src: url("fonts/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("fonts/webfonts/fa-solid-900.woff2") format("woff2"), url("fonts/webfonts/fa-solid-900.woff") format("woff"), url("fonts/webfonts/fa-solid-900.ttf") format("truetype"), url("fonts/webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
+*/
 
 .fa,
 .fas {
@@ -9196,6 +9202,7 @@ readers do not read off random characters that represent icons */
  * Font Awesome Free 5.10.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+/*
 @font-face {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
@@ -9204,6 +9211,7 @@ readers do not read off random characters that represent icons */
   src: url("fonts/webfonts/fa-brands-400.eot");
   src: url("fonts/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("fonts/webfonts/fa-brands-400.woff2") format("woff2"), url("fonts/webfonts/fa-brands-400.woff") format("woff"), url("fonts/webfonts/fa-brands-400.ttf") format("truetype"), url("fonts/webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
+*/
 
 .fab {
   font-family: 'Font Awesome 5 Brands';
@@ -9212,28 +9220,29 @@ readers do not read off random characters that represent icons */
 @font-face {
   font-family: Lato-regular;
   font-style: normal;
-  src: url("fonts/Lato/lato-v15-latin-regular.eot"), url("fonts/Lato/lato-v15-latin-regular.woff2") format("woff2"), url("fonts/Lato/lato-v15-latin-regular.woff") format("woff"), url("fonts/Lato/lato-v15-latin-regular.ttf") format("truetype"), url("fonts/Lato/lato-v15-latin-regular.svg") format("svg");
+  src: url("../fonts/Merriweather-Regular.ttf");
   /* Legacy iOS */
 }
 
 @font-face {
   font-family: Lato-700;
   font-style: normal;
-  src: url("fonts/Lato/lato-v15-latin-700.eot"), url("fonts/Lato/lato-v15-latin-700.woff") format("woff2"), url("fontsLato/lato-v15-latin-700.woff2") format("woff"), url("fonts/Lato/lato-v15-latin-700.ttf") format("truetype"), url("fonts/Lato/lato-v15-latin-700.svg") format("svg");
+  src: url("../fonts/Merriweather-Regular.ttf");
   /* Legacy iOS */
 }
 
 @font-face {
   font-family: Lato-300;
   font-style: normal;
-  src: url("fonts/Lato/lato-v15-latin-300.eot"), url("fonts/Lato/lato-v15-latin-300.woff2") format("woff2"), url("fonts/Lato/lato-v15-latin-300.woff2") format("woff"), url("fonts/Lato/lato-v15-latin-300.ttf") format("truetype"), url("fonts/Lato/lato-v15-latin-300.svg") format("svg");
+  src: url("../fonts/Merriweather-Regular.ttf");
   /* Legacy iOS */
 }
 
 @font-face {
   font-family: Lato-900;
   font-style: normal;
-  src: url("fonts/Lato/lato-v15-latin-900.eot"), url("fonts/Lato/lato-v15-latin-900.woff") format("woff2"), url("fontsLato/lato-v15-latin-900.woff2") format("woff"), url("fonts/Lato/lato-v15-latin-900.ttf") format("truetype"), url("fonts/Lato/lato-v15-latin-900.svg") format("svg");
+	src: url("../fonts/Merriweather-Bold.ttf");
+/*  src: url("fonts/Lato/lato-v15-latin-900.eot"), url("fonts/Lato/lato-v15-latin-900.woff") format("woff2"), url("fontsLato/lato-v15-latin-900.woff2") format("woff"), url("fonts/Lato/lato-v15-latin-900.ttf") format("truetype"), url("fonts/Lato/lato-v15-latin-900.svg") format("svg");*/
   /* Legacy iOS */
 }
 
@@ -11374,7 +11383,7 @@ GENERAL
 }
 
 .form__item--datepicker:hover > span {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .form__item--datepicker input {
@@ -11391,13 +11400,13 @@ GENERAL
 }
 
 .form__item--datepicker input:focus {
-  border: 1px solid #3fced3;
-  color: #3fced3;
+  border: 1px solid #ffe000;
+  color: #ffe000;
 }
 
 .form__item--datepicker input:hover {
-  border: 1px solid #3fced3;
-  color: #3fced3;
+  border: 1px solid #ffe000;
+  color: #ffe000;
 }
 
 .form__item span {
@@ -11435,14 +11444,14 @@ GENERAL
 }
 
 .custom-select:hover {
-  border-color: #3fced3;
-  color: #3fced3 !important;
+  border-color: #ffe000;
+  color: #ffe000 !important;
   z-index: 2;
 }
 
 .custom-select:hover .select-items li {
-  border-color: #3fced3;
-  color: #3fced3 !important;
+  border-color: #ffe000;
+  color: #ffe000 !important;
 }
 
 .solid-border {
@@ -11457,7 +11466,7 @@ GENERAL
 }
 
 .colorChange {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 /*style the arrow inside the select element:*/
@@ -11564,7 +11573,7 @@ GENERAL
   width: 100px;
   display: inline-block;
   height: 55px;
-  border-top: 5px solid #3fd0d4;
+  border-top: 5px solid #ffe000;
 }
 
 .subsriber-form {
@@ -11654,7 +11663,7 @@ GENERAL
 .section-tittle__line-under {
   position: absolute;
   width: 100px;
-  border-top: 5px solid #3fced3;
+  border-top: 5px solid #ffe000;
 }
 
 .section-tittle-2 p {
@@ -11721,12 +11730,12 @@ GENERAL
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 15%, black 100%) !important;
 }
 
-.top-desti__item img {
+.top-desti__item .top-desti__img img {
   vertical-align: middle;
   transition: all 0.5s;
 }
 
-.top-desti__item:hover img {
+.top-desti__item:hover .top-desti__img img {
   transform: scale(1.1);
 }
 
@@ -11736,6 +11745,18 @@ GENERAL
 
 .top-desti__item:hover .top-desti__ammout {
   z-index: 1;
+}
+
+.top-desti__img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.top-desti__img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .top-desti__ammout {
@@ -12088,7 +12109,7 @@ GENERAL
 }
 
 .destination-4-2__arrow:hover {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .destination-4-2__arrow--left {
@@ -12425,13 +12446,26 @@ GENERAL
   border-radius: 4px;
 }
 
-.trending-tour-item img {
+.trending-tour-item .trending-tour-item__img img {
   vertical-align: middle;
   transition: all 0.5s;
 }
 
-.trending-tour-item:hover > img {
+.trending-tour-item:hover > .trending-tour-item__img > img {
   transform: scale(1.1);
+}
+
+.trending-tour-item__img{
+	width: 100%;
+	height: 360px;
+	overflow: hidden;
+}
+
+.trending-tour-item__img img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	
 }
 
 .trending-tour-item__sale {
@@ -12476,12 +12510,13 @@ GENERAL
   font-weight: normal;
 }
 
+/*
 .trending-tour-item__group-infor__rating::before, .trending-tour-item__group-infor__rating--4star::before, .trending-tour-item__group-infor__rating--3star::before, .trending-tour-item__group-infor__rating--2star::before, .trending-tour-item__group-infor__rating--1star::before {
   content: "\f005  \f005  \f005  \f005  \f005";
   font-family: "FontAwesome";
   font-size: 13px;
   font-weight: 400 !important;
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .trending-tour-item__group-infor__rating--4star::before {
@@ -12499,6 +12534,7 @@ GENERAL
 .trending-tour-item__group-infor__rating--1star::before {
   content: "\f005  \f006  \f006  \f006  \f006";
 }
+*/
 
 .trending-tour-item__group-infor__lasting {
   margin-top: 18px;
@@ -12714,7 +12750,7 @@ GENERAL
 }
 
 .filterable-tour__categories .active-filter {
-  border-bottom: 2px solid #3fced3;
+  border-bottom: 2px solid #ffe000;
 }
 
 .filterable-tour__categories span {
@@ -12800,7 +12836,7 @@ GENERAL
   display: inline-flex;
   align-items: center;
   background-color: #ffffff;
-  border-top: 7px solid #3fced3;
+  border-top: 7px solid #ffe000;
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -13102,7 +13138,7 @@ GENERAL
 }
 
 .grid-left-sidebar__filter--mode--sort:hover {
-  background-color: #3fced3;
+  background-color: #ffe000;
 }
 
 .grid-left-sidebar__filter--mode--sort:hover img {
@@ -13307,13 +13343,13 @@ GENERAL
   margin: 0;
   font-family: Lato-700;
   font-size: 50px;
-  color: #3fced3;
+  color: #ffe000;
   font-weight: normal;
 }
 
 .tour-infomation__content__review__rate-point h4 span {
   font-size: 30px;
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .tour-infomation__content__review__rate-point h5 {
@@ -13361,7 +13397,7 @@ GENERAL
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #3fced3;
+  background-color: #ffe000;
   position: absolute;
   border-radius: 5px;
 }
@@ -13379,7 +13415,7 @@ GENERAL
   content: "";
   width: 60%;
   height: 100%;
-  background-color: #3fced3;
+  background-color: #ffe000;
   position: absolute;
   border-radius: 5px;
 }
@@ -13397,7 +13433,7 @@ GENERAL
   content: "";
   width: 20%;
   height: 100%;
-  background-color: #3fced3;
+  background-color: #ffe000;
   position: absolute;
   border-radius: 5px;
 }
@@ -13415,7 +13451,7 @@ GENERAL
   content: "";
   width: 0%;
   height: 100%;
-  background-color: #3fced3;
+  background-color: #ffe000;
   position: absolute;
   border-radius: 5px;
 }
@@ -13525,8 +13561,8 @@ GENERAL
 .list-left-sidebar__price__view-detail {
   transition: all 0.3s;
   margin-top: 5px;
-  color: #3fced3;
-  border: 1px solid #3fced3;
+  color: #ffe000;
+  border: 1px solid #ffe000;
   width: 100px;
   height: 40px;
   line-height: 40px;
@@ -13603,7 +13639,7 @@ GENERAL
 }
 
 .video-popup-1__head-Brg {
-  background-image: url("../images/uploads/video-popup/BrgMelbourne.jpg");
+  background-image: url("https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/du-lich-vinh-bai-tu-long-9-696x373.jpg");
   background-position: center;
   background-size: cover;
   height: 550px;
@@ -14749,7 +14785,7 @@ iframe {
 .travel-review-2__view-btn {
   transition: all 0.3s;
   text-transform: uppercase;
-  color: #3fced3 !important;
+  color: #ffe000 !important;
 }
 
 .travel-review-2__view-btn img {
@@ -14931,274 +14967,6 @@ iframe {
   margin: 0px 12px;
 }
 
-.travel-tip-1__tittle {
-  margin: 100px 0 65px;
-}
-
-@media (max-width: 992px) {
-  .travel-tip-1__tittle {
-    margin: 60px 0;
-  }
-}
-
-@media (max-width: 550px) {
-  .travel-tip-1__tittle {
-    margin: 50px 0 30px;
-  }
-}
-
-.travel-tip-1__sub-tittle {
-  font-family: Lato-regular;
-  font-size: 13px;
-  color: #999999;
-  font-weight: normal;
-  margin-top: 25px;
-  display: inline-block;
-  width: 270px;
-}
-
-@media (max-width: 475px) {
-  .travel-tip-1__sub-tittle {
-    width: 100%;
-  }
-}
-
-.travel-tip-1 {
-  position: relative;
-  margin-bottom: 110px;
-  padding-bottom: 50px;
-}
-
-.travel-tip-1__btn {
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  width: 35px;
-  height: 35px;
-  display: block;
-  background-color: #ffc600;
-  text-align: center;
-  line-height: 35px;
-  border-radius: 50%;
-  font-family: Lato-700;
-  font-size: 17px;
-  color: #ffffff;
-  font-weight: normal;
-}
-
-.travel-tip-1__btn:hover::before {
-  color: #ffffff;
-  background-color: #3fced3;
-}
-
-.travel-tip-1__btn::before {
-  transition: all 0.5s ease;
-  border-radius: 50%;
-  left: 0;
-  top: 0;
-  position: absolute;
-  content: "x";
-  font-family: Lato-regular;
-  line-height: 30px;
-  font-size: 25px;
-  color: transparent;
-  background-color: transparent;
-  width: 100%;
-  height: 100%;
-}
-
-.travel-tip-1__btn--location1 {
-  bottom: 33%;
-  left: 23%;
-}
-
-.travel-tip-1__btn--location2 {
-  top: 23%;
-  left: 32%;
-}
-
-.travel-tip-1__btn--location3 {
-  top: 10%;
-  right: 28%;
-}
-
-.travel-tip-1__btn--location4 {
-  bottom: 33%;
-  left: 56%;
-}
-
-.travel-tip-1__btn--location5 {
-  bottom: 30%;
-  right: 13%;
-}
-
-.travel-tip-1__tip {
-  color: black !important;
-  transition: unset;
-  display: none;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  padding: 30px 25px;
-  text-align: left;
-  z-index: 1;
-  width: 370px;
-  border-radius: 5px;
-  border: 3px solid #3fced3;
-  background-color: #ffffff;
-}
-
-.travel-tip-1__tip--location1 {
-  top: 82%;
-  left: 6%;
-}
-
-.travel-tip-1__tip--location2 {
-  top: 30%;
-  left: 15%;
-}
-
-.travel-tip-1__tip--location3 {
-  top: 35%;
-  left: 70%;
-}
-
-.travel-tip-1__tip--location4 {
-  top: 87%;
-  left: 55%;
-}
-
-.travel-tip-1__tip--location5 {
-  top: 89%;
-  left: 95%;
-}
-
-.travel-tip-1__tip h3 {
-  font-size: 20px;
-  font-family: Lato-900;
-  margin-bottom: 10px;
-}
-
-.travel-tip-1__tip span {
-  margin-right: 20px;
-  font-size: 13px;
-  color: #999999;
-}
-
-.travel-tip-1__tip span i {
-  margin-right: 5px;
-}
-
-.travel-tip-1__tip p {
-  color: #666666;
-  margin: 20px 0 0 0;
-}
-
-.travel-tip-1 .btns-display::before {
-  color: #ffffff;
-  background-color: #3fced3;
-}
-
-.travel-tip-2__tittle {
-  text-align: center;
-  margin: 90px 0 65px;
-}
-
-.travel-tip-2__tittle p, .travel-tip-2__tittle .section-tittle__line-under {
-  left: 50%;
-  transform: translate(-50%, 0);
-}
-
-@media (max-width: 992px) {
-  .travel-tip-2__tittle {
-    margin: 60px 0;
-  }
-}
-
-@media (max-width: 550px) {
-  .travel-tip-2__tittle {
-    margin: 50px 0 30px;
-  }
-}
-
-.travel-tip-2__sub-tittle {
-  font-family: Lato-regular;
-  font-size: 13px;
-  color: #999999;
-  font-weight: normal;
-  margin-top: 25px;
-  display: inline-block;
-  width: 370px;
-}
-
-@media (max-width: 475px) {
-  .travel-tip-2__sub-tittle {
-    width: 100%;
-  }
-}
-
-.travel-tip-2__item {
-  display: flex !important;
-  position: relative;
-  height: 500px;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-
-.travel-tip-2__item > div {
-  padding-right: 0;
-}
-
-.travel-tip-2__item .travel-tip-2__thumb {
-  position: absolute;
-  left: 0;
-}
-
-.travel-tip-2__item__info {
-  display: block;
-  padding: 80px 70px 90px 100px;
-  text-align: right;
-  border: 8px solid #ffc600;
-}
-
-.travel-tip-2__item__info h3 {
-  font-family: Lato-900;
-  font-size: 23px;
-  color: black;
-  font-weight: normal;
-  margin-bottom: 10px;
-}
-
-.travel-tip-2__item__info span {
-  color: #bebebe;
-  margin-left: 20px;
-}
-
-.travel-tip-2__item__info span i {
-  margin-right: 5px;
-}
-
-.travel-tip-2__item__info p {
-  color: #666666;
-  margin: 20px 0 0 0;
-}
-
-.travel-tip-2 {
-  padding-bottom: 110px;
-}
-
-.travel-tip-2 .slick-dots {
-  top: unset;
-  bottom: 18%;
-  right: 70px;
-}
-
-.travel-tip-2 .slick-dots li {
-  margin: 0;
-}
-
-.travel-tip-2 .slick-dots .slick-active button::before {
-  width: 12px !important;
-}
 
 .instagram {
   display: flex;
@@ -15403,7 +15171,7 @@ iframe {
   width: 100%;
   padding: 0;
   height: 2px;
-  background-color: #3fced3;
+  background-color: #ffe000;
 }
 
 .gallery .slick-dots li button::before {
@@ -15677,7 +15445,7 @@ iframe {
 }
 
 .page-banner p span:last-child, .destination-item-banner p span:last-child {
-  color: #3fced3;
+  color: #ffe000;
   margin: 0;
 }
 
@@ -15699,7 +15467,7 @@ iframe {
 }
 
 .tour-item-banner-2 span {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .destination-item-banner {
@@ -15719,7 +15487,7 @@ iframe {
 
 .left-sidebar h3 {
   text-transform: uppercase;
-  background-color: #3fced3;
+  background-color: #ffe000;
   display: block;
   height: 50px;
   width: 100%;
@@ -15799,7 +15567,7 @@ iframe {
   text-align: center;
   border-radius: 4px;
   display: inline-block;
-  background-color: #3fced3;
+  background-color: #ffe000;
   color: #ffffff;
 }
 
@@ -15854,7 +15622,7 @@ iframe {
   left: -7px;
   top: 50%;
   transform: translate(0, -50%);
-  background-color: #3fced3;
+  background-color: #ffe000;
 }
 
 .left-sidebar__price-range .noUi-background {
@@ -15862,7 +15630,7 @@ iframe {
 }
 
 .left-sidebar__price-range .noUi-connect {
-  background: #3fced3;
+  background: #ffe000;
 }
 
 .left-sidebar__price-range .noUi-origin {
@@ -15896,7 +15664,7 @@ iframe {
 }
 
 .left-sidebar .star-rating__field:hover .star-rating__box {
-  border: 1px solid #3fced3;
+  border: 1px solid #ffe000;
 }
 
 .left-sidebar .star-rating__field:hover input {
@@ -15904,7 +15672,7 @@ iframe {
 }
 
 .left-sidebar .star-rating__field:hover .choices-content {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .left-sidebar .star-rating input, .left-sidebar .duration input, .left-sidebar .activity-type input {
@@ -15916,7 +15684,7 @@ iframe {
 }
 
 .left-sidebar .star-rating input:checked ~ .star-rating__box, .left-sidebar .duration input:checked ~ .star-rating__box, .left-sidebar .activity-type input:checked ~ .star-rating__box {
-  border: 1px solid #3fced3;
+  border: 1px solid #ffe000;
 }
 
 .left-sidebar .star-rating input:checked ~ .star-rating__box::after, .left-sidebar .duration input:checked ~ .star-rating__box::after, .left-sidebar .activity-type input:checked ~ .star-rating__box::after {
@@ -15924,7 +15692,7 @@ iframe {
 }
 
 .left-sidebar .star-rating input:checked ~ .choices-content, .left-sidebar .duration input:checked ~ .choices-content, .left-sidebar .activity-type input:checked ~ .choices-content {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .left-sidebar .star-rating__box {
@@ -15944,7 +15712,7 @@ iframe {
   left: 0px;
   width: 17px;
   text-align: center;
-  color: #3fced3;
+  color: #ffe000;
   font-size: 12px;
   visibility: hidden;
 }
@@ -15958,7 +15726,7 @@ iframe {
   font-family: "FontAwesome";
   font-size: 12px;
   font-weight: 400 !important;
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .left-sidebar .star-rating__4-stars::after {
@@ -15990,7 +15758,7 @@ iframe {
 .left-sidebar .duration__arrow-down {
   margin-bottom: -10px;
   margin-top: 15px;
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .left-sidebar .duration__arrow-down::after {
@@ -16014,7 +15782,7 @@ iframe {
   text-align: center;
   width: 100%;
   margin: 0;
-  background-color: #3fced3;
+  background-color: #ffe000;
   font-family: Lato-900;
   font-size: 25px;
   color: #ffffff;
@@ -16150,7 +15918,7 @@ iframe {
 }
 
 .destination-sidebar__searchbox input:focus {
-  border-color: #3fced3;
+  border-color: #ffe000;
 }
 
 .destination-sidebar__searchbox__icon {
@@ -16161,7 +15929,7 @@ iframe {
   cursor: pointer;
   position: absolute;
   width: 50px;
-  background-color: #3fced3;
+  background-color: #ffe000;
 }
 
 .destination-sidebar__searchbox__icon img {
@@ -16234,7 +16002,7 @@ iframe {
 }
 
 .blog-sidebar .sidebar-category ul li a:hover {
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .blog-sidebar .recent-post__item {
@@ -16283,7 +16051,7 @@ iframe {
 }
 
 .wander-pagination__pagination .current {
-  background-color: #3fced3;
+  background-color: #ffe000;
   color: #ffffff;
 }
 
@@ -16670,7 +16438,7 @@ iframe {
   font-family: "FontAwesome";
   font-size: 14px;
   font-weight: 400 !important;
-  color: #3fced3;
+  color: #ffe000;
   bottom: -5px;
   left: 0;
   visibility: visible;
@@ -16684,7 +16452,7 @@ iframe {
   font-family: "FontAwesome";
   font-size: 14px;
   font-weight: 400 !important;
-  color: #3fced3;
+  color: #ffe000;
 }
 
 .tour-infomation__content__write-comment__rating input[name="rate"]:checked ~ input::after {
@@ -16731,7 +16499,7 @@ iframe {
   position: absolute;
   width: 150px;
   height: 5px;
-  background-color: #3fced3;
+  background-color: #ffe000;
   bottom: -18px;
 }
 
@@ -16821,7 +16589,7 @@ iframe {
 
 .contact-infomation__working-time p {
   font-size: 18px;
-  color: #3fced3;
+  color: #ffe000;
   margin: 0;
 }
 
@@ -16994,8 +16762,8 @@ iframe {
   height: 46px;
   margin: 1px;
   border-radius: 50%;
-  border: 5px solid #3fced3;
-  border-color: #3fced3 transparent #3fced3 transparent;
+  border: 5px solid #ffe000;
+  border-color: #ffe000 transparent #ffe000 transparent;
   -webkit-animation: lds-dual-ring 1.2s linear infinite;
           animation: lds-dual-ring 1.2s linear infinite;
 }
@@ -17140,7 +16908,7 @@ HEADER
 #header-1 {
   position: relative;
   height: 910px;
-  background-image: url("../images/uploads/pagebanner/header1-banner.jpg");
+  background-image:url("https://cafebiz.cafebizcdn.vn/thumb_w/600/162123310254002176/2021/3/15/photo1615779570913-16157795711621239589514.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -17207,7 +16975,7 @@ HEADER
 }
 
 .header-content1 .header-1-nav li a {
-  font-family: Lato-900;
+  font-family:Arial;
   display: block;
   padding: 40px 16px 30px;
   color: #ffffff;
@@ -17507,7 +17275,7 @@ HEADER
 }
 
 .header-nav-mobile ul {
-  border-top: 3px solid #3fced3;
+  border-top: 3px solid #ffe000;
   margin: 0;
   padding: 0 15px;
 }
@@ -17603,7 +17371,7 @@ FOOTER
 --------------------------------------------------------------*/
 #footer-1 {
   padding-top: 100px;
-  background-image: url("../images/uploads/pagebanner/footerbanner.jpg");
+  background-image: url("https://boostifythemes.com/demo/html/wanderlust/assets/images/uploads/pagebanner/footerbanner.jpg");
   background-position: center;
   background-size: cover;
   height: 900px;
@@ -17631,7 +17399,7 @@ FOOTER
 .footer-widget-1__tittle__line-under {
   width: 50px;
   margin-top: -10px;
-  border-top: 3px solid #3fced3;
+  border-top: 3px solid #ffe000;
 }
 
 .footer-widget-1__lists {
@@ -17739,7 +17507,7 @@ FOOTER
   display: inline-block;
   width: 50px;
   height: 12px;
-  border-top: 3px solid #3fced3;
+  border-top: 3px solid #ffe000;
 }
 
 .footer-2__widget--left {
@@ -17788,7 +17556,7 @@ FOOTER
 .footer-2__widget__map__address {
   font-family: Lato-300;
   font-size: 15px;
-  color: #3fced3;
+  color: #ffe000;
   font-weight: normal;
 }
 
@@ -18021,6 +17789,7 @@ REPONSIVE
   }
   .top-desti__item {
     margin-top: 30px;
+	  width: 370px;
   }
 }
 
@@ -18327,7 +18096,7 @@ REPONSIVE
   }
   .section-tittle__line-under {
     width: 70px;
-    border-top: 3px solid #3fced3;
+    border-top: 3px solid #ffe000;
   }
 }
 
@@ -19297,178 +19066,7 @@ REPONSIVE
   }
 }
 
-@media (max-width: 1600px) {
-  .travel-tip-1__tip--location1 {
-    top: 85%;
-    left: 20%;
-  }
-  .travel-tip-1__tip--location2 {
-    top: 47%;
-    left: 35%;
-  }
-  .travel-tip-1__tip--location4 {
-    top: 87%;
-    left: 55%;
-  }
-  .travel-tip-1__tip--location5 {
-    top: 89%;
-    left: 83%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .travel-tip-1__tip--location1 {
-    top: 90%;
-    left: 20%;
-  }
-  .travel-tip-1__tip--location2 {
-    top: 52%;
-    left: 35%;
-  }
-  .travel-tip-1__tip--location3 {
-    top: 40%;
-    left: 70%;
-  }
-  .travel-tip-1__tip--location4 {
-    top: 90%;
-    left: 55%;
-  }
-  .travel-tip-1__tip--location5 {
-    top: 94%;
-    left: 83%;
-  }
-}
-
-@media (max-width: 992px) {
-  .travel-tip-1__tip {
-    padding: 15px;
-  }
-  .travel-tip-1__tip h3 {
-    font-size: 15px;
-  }
-  .travel-tip-1__tip span {
-    margin-right: 10px;
-  }
-  .travel-tip-1__tip p {
-    font-size: 13px;
-    margin: 0;
-  }
-  .travel-tip-1__tip--location1 {
-    top: 85%;
-    left: 25%;
-  }
-  .travel-tip-1__tip--location2 {
-    top: 48%;
-    left: 35%;
-  }
-  .travel-tip-1__tip--location3 {
-    top: 33%;
-  }
-  .travel-tip-1__tip--location4 {
-    top: 85%;
-  }
-  .travel-tip-1__tip--location5 {
-    top: 90%;
-    left: 73%;
-  }
-}
-
-@media (max-width: 768px) {
-  .travel-tip-1 {
-    padding-bottom: 0;
-  }
-  .travel-tip-1__btn {
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 13px;
-  }
-  .travel-tip-1__btn::before {
-    line-height: 15px;
-    font-size: 15px;
-  }
-  .travel-tip-1__tip--location1 {
-    top: 92%;
-    left: 40%;
-  }
-  .travel-tip-1__tip--location2 {
-    top: 56%;
-    left: 35%;
-  }
-  .travel-tip-1__tip--location3 {
-    top: 43%;
-  }
-  .travel-tip-1__tip--location4 {
-    top: 92%;
-  }
-  .travel-tip-1__tip--location5 {
-    top: 95%;
-    left: 60%;
-  }
-}
-
-@media (max-width: 576px) {
-  .travel-tip-1__tip {
-    width: 100%;
-    top: 115%;
-    left: 50%;
-  }
-}
-
-@media (max-width: 400px) {
-  .travel-tip-1__tip {
-    top: 145%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .travel-tip-2__thumb {
-    width: 50%;
-    height: 100%;
-  }
-  .travel-tip-2__item {
-    height: auto;
-  }
-  .travel-tip-2__item__info {
-    padding: 30px;
-  }
-  .travel-tip-2 .slick-dots {
-    right: 48%;
-  }
-}
-
-@media (max-width: 992px) {
-  .travel-tip-2__item {
-    flex-direction: column;
-  }
-  .travel-tip-2__item > div {
-    padding-left: 0;
-  }
-  .travel-tip-2__item__info {
-    text-align: center;
-  }
-  .travel-tip-2__item .travel-tip-2__thumb {
-    position: unset;
-    width: 70%;
-    margin-bottom: 30px;
-  }
-  .travel-tip-2 {
-    padding-bottom: 80px;
-  }
-  .travel-tip-2 .slick-dots {
-    bottom: 6%;
-  }
-}
-
-@media (max-width: 576px) {
-  .travel-tip-2__item__info {
-    padding: 15px;
-  }
-  .travel-tip-2__item__info h3 {
-    font-size: 15px;
-  }
-}
-
+ 
 @media (max-width: 768px) {
   .instagram {
     flex-flow: wrap;
